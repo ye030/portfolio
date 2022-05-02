@@ -1,0 +1,232 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+  
+    /* 가로1200박스만 찾아서 100%로 설정한다. */
+    header, .header_top, .header_bottom, .gnb > ul, .free_ex > article, .shop_box, .story article, .instar, .f_nav, .f_info, address{
+      width:100%;
+    }
+    .pagew{
+      width:100%;
+      /* background:orange; */
+    }
+    .gnb > ul > li{
+      margin-right: 10px;
+    }
+    .gnb > ul > li >a{
+      font-size: 1.2rem;
+      margin: 0px auto;
+      margin-right: 30px;
+  }
+    .home_ani{
+      width: 90%;
+      background: rgb(117, 209, 174);
+    }
+    .ani_txt{
+      transform: translate(-10%, -50%);
+    }
+    .turtle{
+      position: absolute;
+      z-index: 10;
+      width: 8.8%;
+      top: 46.5%; right: 24rem;
+      background-image: url(../img/popol_turtle.svg);
+      animation: turtleIpad 8s infinite linear normal;
+    }
+    .slide{
+      top: 47%; left: 62%;
+      width: 200px; height: 200px;
+    }
+    .slide > ul > li > a > img{
+      width:200px;
+      height:200px;
+      }
+    .ad_01 {
+      width: 90%;
+      /* background: yellowgreen; */
+    }
+    .ad_name{
+      font-size: 45px;
+    }
+    .ad_01 h3{
+      top:19%; left:65%;
+    }
+    .ad_01 > p {
+      top:34%; left: 38%;
+    }
+    .ad_ment {
+      width: 347px;
+      font-size: 18px;
+    }
+    .point_text{
+      font-size: 19px
+    }
+    .ad_01 .button-wrap{
+      position: absolute;
+      /* top:81%; left:45%; */
+    }
+    .ad_01 > .advan_box{
+      top:81%; left:45%;
+      width: 300px;
+      position: absolute;
+    }
+    .heart_bubble img{
+      width: 75px;
+      left: -4%;
+      transform: translateY(80%);
+      animation: move01Ipad 3s cubic-bezier(0.46, 0.03, 0.52, 0.96) infinite;
+    }
+    .ad_02 {
+      width: 90%;
+      background: rgb(115, 135, 226);
+    }
+    .pro-about {
+      width: 90%;
+      background-color: rgb(231, 73, 73);
+    }
+    .faq {
+      width: 100%;
+      background: #a3d645;
+    }
+    .qna {
+      width: 90%;
+      margin: 1% 0px 0px 4%;
+  }
+  .qna .qna-list {
+    width: 100%;
+    background: rgb(223, 135, 135);
+  }
+  .world{
+    width: 70%;
+    background: rebeccapurple;
+  }
+  .skill{
+    height: 1740px;
+  }
+  .skill h2{
+    top:4%;
+  }
+  .pf_container{
+    width: 90%;
+    grid-template-columns:350px 350px;
+    background:tan;
+  }
+  .item-mockup {
+    background-color: palegoldenrod;
+  }
+  .item_slide {
+    width: 300px;
+  }
+  .moniter{
+    width: 300px;
+  }
+  .f_box{
+    width: 100%;
+  }
+  aside {
+    right: -2%;
+    bottom: 135px;
+    width: 25%;
+  }
+@media screen and (min-width:1024px) and (max-width:1199px){
+  
+    /* 가로1200박스만 찾아서 100%로 설정한다. */
+    header, .header_top, .header_bottom, .gnb > ul, .free_ex > article, .shop_box, .story article, .instar, .f_nav, .f_info, address{
+      width:100%;
+    }
+    .pagew{
+      width:100%;
+      /* background:orange; */
+    }
+    .gnb > ul > li{
+      margin-right: 10px;
+    }
+    .gnb > ul > li >a{
+      font-size: 1.2rem;
+      margin: 0px auto;
+      margin-right: 30px;
+  }
+    .home_ani{
+      width: 90%;
+      background: rgb(182, 125, 125);
+    }
+    .slide{
+      left: 65%;
+    }
+    .ani_txt{
+      /* transform: translate(10%, -50%); */
+    }
+    .turtle{
+      width: 8.8%;
+      top: 46.5%;
+      animation: turtleIpad 8s infinite linear normal;
+    }
+    .ad_01 {
+      width: 90%;
+      background: yellowgreen;
+    }
+    .heart_bubble img{
+      left: -3%;
+      /* transform:translateY(-80%); */
+    }
+    .ad_01 > img {
+      top: 5%; left: 8%;
+    }
+    .ad_01 > h3 {
+      top: 2%;
+      left: 55%;
+  }
+    .ad_02 {
+      width: 90%;
+      background: rgb(115, 135, 226);
+    }
+    .pro-about {
+      width: 90%;
+      background-color: rgb(231, 73, 73);
+    }
+    .faq {
+      width: 100%;
+      background: #a3d645;
+    }
+    .qna {
+      width: 90%;
+      margin: 1% 0px 0px 4%;
+    }
+    .qna .qna-list {
+      width: 100%;
+      background: rgb(223, 135, 135);
+    }
+    .world{
+      width: 70%;
+      background: rebeccapurple;
+    }
+    .skill{
+      height: 1740px;
+    }
+    .skill h2{
+      top:4%;
+    }
+    .pf_container{
+      width: 90%;
+      grid-template-columns:350px 350px;
+      background:tan;
+    }
+    .item-mockup {
+      background-color: palegoldenrod;
+    }
+    .item_slide {
+      width: 300px;
+    }
+    .moniter{
+      width: 300px;
+    }
+    .f_box{
+      width: 100%;
+    }
+    aside {
+      right: -2%;
+      bottom: 270px;
+      width: 25%;
+  }
+}
+}

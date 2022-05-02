@@ -1,0 +1,77 @@
+@keyframes turtle{
+    5%{right: 30rem; transform: rotate(10deg);}
+    10%{right: 33rem; transform:rotate(-10deg);}
+    20%{right: 36rem; transform: rotate(10deg);}
+    30%{right: 39rem; transform: rotate(-10deg);}
+    40%{right: 42rem; transform: rotate(10deg);}
+    50%{right: 45rem; transform: rotate(-10deg);}
+    60%{right: 48rem; transform: rotate(10deg);}
+    70%{right: 51rem; transform: rotate(-10deg);}
+    80%{right: 54rem; transform: rotate(10deg);}
+    90%{right: 57rem; transform: rotate(-10deg);}
+    100%{right: 60rem; transform: rotate(10deg);}
+}
+
+@keyframes turtleIpad{
+    0%{right: 24rem;}
+    5%{right: 24rem; transform: rotate(10deg);}
+    10%{right: 26rem; transform:rotate(-10deg);}
+    20%{right: 28rem; transform: rotate(10deg);}
+    30%{right: 30rem; transform: rotate(-10deg);}
+    40%{right: 32rem; transform: rotate(10deg);}
+    50%{right: 34rem; transform: rotate(-10deg);}
+    60%{right: 36rem; transform: rotate(10deg);}
+    70%{right: 38rem; transform: rotate(-10deg);}
+    80%{right: 40rem; transform: rotate(10deg);}
+    90%{right: 42rem; transform: rotate(-10deg);}
+    100%{right: 44rem; transform: rotate(10deg);}
+}
+
+@keyframes move01{
+    50%{
+        transform: rotate(15deg) translateY(110%);
+    }
+}
+
+@keyframes move01Ipad{
+    50%{
+        transform: rotate(10deg) translateY(90%);
+    }
+}
+@keyframes move02{
+    0%{
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    100%{
+    }
+}
+@keyframes float{
+    0%{transform: translateY(-10%) rotate(-10deg);}
+    100%{transform: translateY(10%) rotate(10deg);}
+}
+
+@keyframes upDown{
+    0%{transform: translateY(-30%);}
+    100%{transform: translateY(30%);}
+}
+
+@keyframes floatFire{
+    0%{transform: translateY(-20%) rotate(20deg);}
+    100%{transform: translateY(20%) rotate(-20deg);}
+}
+
+@keyframes letter{
+    0%{transform: translateY(-20%) rotate(15deg);}
+    100%{transform: translateY(20%) rotate(-15deg);}
+}
+
+@keyframes click{
+    0%{transform: translateY(-20%) rotate(5deg);}
+    100%{transform: translate(20%,20%) rotate(5deg);}
+}
+
+@keyframes ing{
+    50%{transform: rotate(15deg) translateY(286%);}
+}
